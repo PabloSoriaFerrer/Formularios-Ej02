@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h3>Formulario 2</h3>
+<hr>
+    <div>
+            <form action="web.php" method="GET">
+                <h3>Empieza creando tu usuario</h3>
+                <input type="text" name="nombre" id="name" placeholder="Nombre(Como sale en el DNI)" size="30">
+                <p></p>
+                <p></p>
+                <input type="text" name="1apellido" id="1apellido" placeholder="1º Apellido(Como sale en el DNI)" size="30">
+                <input type="text" name="2apellido" id="2apellido" placeholder="2º Apellido(Como sale en el DNI)" size="30">
+                <br>
+                <p>Tipo de Documento:
+                    <select name="menu">
+                        <option>DNI/NIF</option>
+                        <option>Pasaporte</option>
+                        
+                    </select>
+                <input type="text" name="Nº Documento" id="NumDocumento" placeholder="Numero de Documento">
+                </p>
+            
+                <br>
+
+                <select name="menu">
+                <option selected> España (+34) </option>
+                <option> Sudafrica (+27)</option>
+                <option> Uganda (+256)</option>
+                </select>
+                <input type="tel" name="NumTelefono" id="NumTelefono" placeholder="Numero de telefono">
+                <input type="email" name="Correo" id="Correo" placeholder="Correo Electrónico">
+            
+
+                <br>
+                <p></p>
+                <p></p>
+                <input type="submit" value="Enviar">
+
+            </form>
+        
+    </div>
+</body>
+</html>
